@@ -6,14 +6,19 @@
       
       body{
         background-image : url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+        font-family : sans-serif;
+        padding: 20px;
       }
       
       
       .menu{
         width : 80%;
+        /* To prevent that grow to much in some device */
+        max-width: 500px;
         background-color: burlywood;
         margin-right : auto;
         margin-left : auto;
+       padding : 20px 20px 20px 20px;
       }
 
       .flavor,.dessert{
@@ -27,6 +32,40 @@
       }
       .item p{
         display : inline-block;
+        margin-top : 5px;
+        margin-bottom : 5px;
       }
-      
+
+      h1,h2{
+        /* Fallback to serif */
+        font-family : Impact,serif;
+      }
+
+      .establish{
+        font-style : italic;
+      }
+
+      h1{
+        font-size : 40px;
+      }
+      h2{
+        font-size : 30px;
+      }
+      hr {
+        height: 2px;
+        background-color: brown;
+        border-color: brown;
+      }
+      .bottom-line{
+        margin-top : 25px;
+      }
+
+      footer{
+        font-size  : 14px;
+      }
+
+      /* Make the link go black instead of blue by default */
+      a{
+        color : black;
+      }
       
