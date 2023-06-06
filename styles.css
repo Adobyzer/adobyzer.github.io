@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+.marker{
+  height : 25px;
+  width : 200px;
+  /*  Lets space and CENTER THE DIV */
+  margin : 10px auto;
+}
+
+/*  linear-gradient(gradientDirection, color1, color2, ...); */
+.red{
+    background: linear-gradient(180deg, rgb(122, 74, 14) , rgb(245, 62, 113) , rgb(162, 27, 27));
+}
+/* 0 1 2 3 4 5 6 7 8 9 A B C D E F */
+.green{
+    background-color : #007F00;
+}
+
+/* h(0-360) s (0-100) l (0-100) */
+.blue{
+    background-color: hsl(240,100%,50%);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding : 10px 0 10px 0;
+  }
+
+
+
+
