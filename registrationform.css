@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+
+    /* vh mean for viewport and only one to measure for heigth */
+
+    height: 100vh;
+    margin: 0;
+    background-color : #1b1b32;
+    color : #f5f6f7;
+}
+
+label{
+    display : block;
+
+    /* rem unit stand fort root em  relative to font size of html elements */
+    margin: 0.5rem 0 ;
+  }
