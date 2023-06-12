@@ -7,6 +7,10 @@ body{
     margin: 0;
     background-color : #1b1b32;
     color : #f5f6f7;
+
+    /* FOR THE POLICE */
+    font-family : "Tahoma";
+    font-size : 16px;
 }
 
 label{
@@ -15,3 +19,35 @@ label{
     /* rem unit stand fort root em  relative to font size of html elements */
     margin: 0.5rem 0 ;
   }
+
+  form{
+    margin : 0 auto;
+    max-width : 500px;
+    min-width : 300px;
+    width : 60vw;
+  }
+
+  fieldset{
+    border:none;
+    padding : 2rem 0 2rem 0;
+    border-bottom: 3px solid rgb(59, 59, 79);
+  }
+
+  fieldset:last-of-type {
+    border-bottom : none;
+    }
+
+    /* remove the rule that all component are max width */
+    .inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        /* ALIGN TEXT WITH INPUT */
+        vertical-align: middle;
+      }
+
+      input, textarea {
+        background-color: #0a0a23;
+        border: 1px solid #0a0a23;
+        color: #ffffff;
+        min-height: 2em;
+      }
