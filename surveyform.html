@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+
+    <head> 
+        <link href="surveyform.css" rel="stylesheet"/>
+        <title> SurveyFormCover</title>
+        <script src="surveyform.js"></script>
+    </head>
+
+    <body>
+
+        <h1 id="title"> Restons en contact </h1>
+        <p id="description">Remplissez ce formulaire afin de nous faire part de toutes informations que vous jugez importantes </p>
+
+        <form id="survey-form"> 
+
+            <fieldset>
+                
+            <label id="name-label"> <input type="text" placeholder="Écrivez votre nom complet (requis)" id="name" required/> </label>
+
+            <label id="email-label"> <input type="email" placeholder="Introduisez votre email (requis)" id="email" required/> </label>
+
+            <label id="email-sujet"> <textarea col= "40" rows = "10" placeholder="Sujet de l'email (requis)" required> </textarea> </label>
+
+            
+
+        
+            <labeL id="horaire"> Sélectionnez à l'aide du menu une plage horaire si intéressé pour un service.</labeL>
+
+            <label id="date"> <input type="date"/>  </label>
+
+            <labeL id="horaire"> Sélectionnez à l'aide du menu le nombre de service interesse .</labeL>
+
+           
+
+           
+            <label id="number-label"> <input type="number" min="1" max="4" placeholder="Sélectionnez le nombre de services intéressé" required/> </label>
+        
+            <label id="dropdown">
+
+            <select>
+                <option disabled> Veuillez choisir une option</option>
+
+                <option> Pack d'Été</option>
+                <option> Pack d'Automne</option>
+                <option> Pack d'Hiver</option>
+                <option> Pack de Printemps  </option>
+
+            </select>
+
+            </label>
+
+
+            <label> Comment avez-vous entendu de SmultiServices ?</label>
+           <label> <input type="radio" value="Internet" name="radiobutton"/> Recherche Web</label>
+           <label> <input type="radio" value="Reseau Sociaux" name="radiobutton"/> Réseaux Sociaux <label>
+           <label> <input type="radio" value="Autres" name="radiobutton"/> Autres</label>
+
+           <label> <input type="checkbox"/>  J'ai confirmé que je ne suis pas un robot!</label>
+
+         <label>  <input type="submit" value="Faire part à l'équipe SMultiServices"/></label>
+        
+           </fieldset>
+
+        </form>
+
+
+    </body>
+
+
+</html>
