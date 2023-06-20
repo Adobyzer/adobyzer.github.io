@@ -1,0 +1,44 @@
+body{
+    font-family : Open Sans, sans-serif;
+}
+
+html{
+    font-size : 16px;
+}
+
+.label{
+    border : 2px solid black;
+    width : 270px;
+
+    /* top and bottom | left and right */
+margin: 20px auto;
+
+ /* top and bottom | left and right */
+padding : 0 7px;
+
+}
+
+*{
+    /* RESET THE BOX MODEL TO MAP THE EXACT WIDTH */
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-weight: 800;
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing : 0.15px;
+  }
+
+  p{
+    margin : 0;
+  }
+
+  .divider{
+    border-bottom : 1px solid #888989;
+    margin : 2px 0;
+  }
+
+  .bold{
+    font-weight: 800;
+  }
